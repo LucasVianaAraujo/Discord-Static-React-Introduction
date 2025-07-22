@@ -1,0 +1,227 @@
+/* todos os comentários foram feitos por mim com o objetivo de explicar o código e poder recorrer a eles futuramente para qualquer que seja o objetivo */
+
+* {
+    margin: 0;
+    /* Isso fez minha imagem preencher a tela inteira horizontalmente! Se tirar essas três linhas, fica um corte esquisito na borda do background (".background") */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    /* O mais próximo que eu achei da fonte do discord. Eu gostei!! */
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: cornflowerblue;
+    /* Os links do discord precisam ser azúis!! kkkkk */
+    font-weight: bold;
+}
+
+.top {
+    display: flex;
+    /* minha img é gigante kkkkk*/
+    justify-content: space-around;
+    margin-top: 0px;
+    padding: 0;
+}
+
+.links {
+    display: flex;
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 30px;
+    justify-content: space-around;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.background {
+    background-image: url(src/assets/bg_discord.png);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inside-background {
+    justify-content: center;
+    margin-top: 80px;
+    text-decoration: white;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.top01 {
+    display: flex center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.text01 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 70px;
+}
+
+.cards2 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cards3 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cards4 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    border: 0.1px solid rgba(162, 229, 255, 0.322);
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+.botao {
+    bottom: auto;
+    text-align: center;
+    height: 300px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.background1 {
+    background-color: black;
+    margin-top: 80px;
+    height: 450px;
+}
+
+.backgg {
+    text-align: center;
+    background-color: black;
+    height: 300px;
+}
+
+.cards img,
+.cards1 img,
+.cards2 img,
+.cards3 img,
+.cards4 img {
+    width: 110px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.pg01 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.textinho {
+    background-color: green;
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    justify-self: center;
+    margin-top: 10px;
+    padding-top: 4px;
+}
+
+.carinha {
+    color: white;
+    text-decoration: none;
+    padding: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.device {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sep {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    justify-content: center;
+}
+
+.parte {
+    justify-items: baseline;
+    /*isso fez meu texto ficar todo do lado direito, como no word */
+    gap: 5px;
+}
+
+.parte1 {
+    justify-items: baseline;
+    gap: 5px;
+}
+
+.parte1 h3,
+.parte h3 {
+    color: white;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border-radius: 5px;
+    width: 600px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+strong {
+    color: green;
+}
+
+.borda a {
+    box-shadow: 50px gray;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+button {
+    position: fixed;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    margin: 20px;
+    margin-left: 1230px;
+    margin-top: 580px;
+    background-color: cornflowerblue;
+    outline: none;
+    border: none;
+}
